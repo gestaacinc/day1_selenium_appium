@@ -4,11 +4,26 @@ This guide will help you set up your machine and run the automation exercises in
 
 ## 1. Prerequisites
 Ensure you have the following installed on your machine:
-*   **Java Development Kit (JDK)**
+*   **Java Development Kit (JDK)** 
 *   **Apache Maven** (For building and running the project)
 *   **An IDE** (VS Code, IntelliJ, or Eclipse)
 
-## 2. Project Configuration (pom.xml)
+## 2. Creating a New Project (Optional)
+If you are starting from scratch and want to create a brand new Maven project, run the following command in your terminal:
+
+```bash
+mvn archetype:generate "-DgroupId=com.bootcamp" "-DartifactId=selenium-day1" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+```
+
+*   **groupId**: The package structure (e.g., `com.bootcamp`).
+*   **artifactId**: The name of your project folder (e.g., `selenium-day1`).
+*   **interactiveMode=false**: Tells Maven to use default settings without asking for confirmation.
+
+After running this, a new folder named `selenium-day1` will be created.
+
+---
+
+## 3. Project Configuration (pom.xml)
 This project uses **Maven** to manage libraries. Ensure your `pom.xml` contains the following dependencies:
 
 ```xml
@@ -55,7 +70,7 @@ mvn clean install
 
 ---
 
-## 3. How to Run a Specific Test File
+## 4. How to Run a Specific Test File
 You do not need to run all tests at once. You can execute a single test file using the command line.
 
 ### Command Syntax:
