@@ -1,4 +1,4 @@
-# Day 2 Machine Problem: "The Unstable UI Suite"
+# Day 3 Machine Problem: "The Unstable UI Suite"
 
 **Role:** Automation Architect Candidate
 **Time Limit:** 45 Minutes
