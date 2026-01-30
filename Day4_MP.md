@@ -1,6 +1,6 @@
 # Machine Problem: 
 
-**Objective:** Combine all the basic concepts you've learned (Navigation, Locators, Dropdowns, Alerts, Checkboxes, and Waits) into a single, cohesive automation script.
+**Objective:** Combine all the basic concepts you've learned (Navigation, Locators, Dropdowns others elements will be done using AI tools) into a single, cohesive automation script.
 
 **Scenario:**
 You are testing the "The Internet" web application. You need to navigate through various features to ensure the site is functioning correctly.
